@@ -1,12 +1,10 @@
 .App {
   text-align: center;
 }
-
 .center {
   display: flex;
   justify-content: center;
 }
-
 #tsparticles {
   position: fixed;
   top: 0;

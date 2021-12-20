@@ -9,7 +9,6 @@ import ImageLinkForm from './components/ImageLinkForm/ImageLinkForm';
 import Rank from './components/Rank/Rank';
 import './App.css';
 
-
 const initialState = {
     input: '',
     imageUrl: '',
@@ -91,7 +90,6 @@ displayFaceBox = (box) => {
     })
     .catch(err => console.log(err));
   };
-
 
 onRouteChange = (route) => {
   if (route === 'signout') {
