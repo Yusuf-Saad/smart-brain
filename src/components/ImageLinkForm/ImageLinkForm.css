@@ -1,6 +1,9 @@
 .form {
     width: 700px;  
-    background: linear-gradient(89deg, rgba(255, 94, 223, 0.15),rgba(4, 200, 222, 0.15));  
+    background: linear-gradient(89deg, #96B7C4 0%, #616161 100%);
     backdrop-filter: blur(3px);
 }
 
+button {
+    background-color: #96B7C4;
+}
