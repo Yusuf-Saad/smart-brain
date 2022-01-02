@@ -10,7 +10,7 @@ article {
 
 .button {  
   color: var(--color);
-  transition: 0.25s;
+  transition: 0.5s;
   
   &:hover,
   &:focus { 
@@ -34,4 +34,10 @@ $colors: (
     --color: #{$color};
     --hover: #{adjust-hue($color, 45deg)};
   }
+}
+
+
+.slide:hover,
+.slide:focus {
+  box-shadow: inset 15em 0 0 0 var(--hover);
 }
